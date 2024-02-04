@@ -1,0 +1,160 @@
+body {
+  background-color: lightgrey;
+}
+#card {
+  width: 744px;
+  height: 528px;
+  background-color: whitesmoke;
+  box-shadow: 5px 20px 20px -10px black;
+
+  position: relative;
+  top: 30px;
+  left: 30px;
+  right: 30px;
+  bottom: 30px;
+}
+#photo {
+  width: 238px;
+  height: 244px;
+  background-color: red;
+
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#photo2 {
+  display: none;
+}
+#photo3 {
+  display: none;
+}
+.point {
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: lightgrey;
+  position: absolute;
+  top: 220px;
+}
+#point1 {
+  left: 87px;
+  background-color: grey;
+}
+#point2 {
+  left: 113px;
+}
+#point3 {
+  left: 139px;
+}
+#intro {
+  width: 238px;
+  height: 284px;
+  background-color: darkslategray;
+  color: white;
+
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+
+  box-sizing: border-box;
+  padding: 12px 24px 12px 24px;
+}
+h1 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+h2 {
+  font-size: 16px;
+}
+#title1 {
+  font-size: 16px;
+  margin-top: -14px;
+  margin-bottom: 26px;
+}
+h3 {
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 30px;
+}
+
+#about {
+  width: 320px;
+  height: 528px;
+  background-color: white;
+
+  position: absolute;
+  top: 0px;
+  left: 238px;
+
+  box-sizing: border-box;
+  padding: 12px 24px 12px 24px;
+}
+h4 {
+  color: lightseagreen;
+}
+p {
+  color: gray;
+}
+li {
+  color: gray;
+}
+#other {
+  width: 186px;
+  height: 528px;
+  background-color: whitesmoke;
+
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+  box-sizing: border-box;
+  padding: 12px 24px 12px 24px;
+}
+.block {
+  width: 138px;
+  height: 32px;
+
+  position: relative;
+  margin-top: 12px;
+}
+.left-text {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: gray;
+}
+.right-text {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: gray;
+}
+.gray-bar {
+  position: absolute;
+  bottom: 0px;
+  left: opx;
+  width: 138px;
+  height: 12px;
+  background-color: lightgrey;
+  border-radius: 6px;
+}
+.green-bar {
+  position: absolute;
+  bottom: 0px;
+  left: opx;
+  width: 24px;
+  height: 12px;
+  background-color: lightseagreen;
+  border-radius: 6px;
+}
+#green-bar1 {
+  left: 100px;
+}
+#green-bar5 {
+  width: 124px;
+}
